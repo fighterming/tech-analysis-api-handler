@@ -2,11 +2,16 @@
 name = "tech-analysis-api-handler"
 version = "0.1.0"
 description = ""
-authors = ["fighterming <62058849+fighterming@users.noreply.github.com>"]
+authors = ["Tsui Ho Ming <fighterming@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+psycopg2-binary = "^2.9.9"
 
 
 [build-system]
